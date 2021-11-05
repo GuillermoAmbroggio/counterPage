@@ -1,0 +1,21 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 2px solid black;
+  text-align: center;
+  padding: 8px 16px;
+}
+
+h3,
+h1 {
+  text-align: center;
+}
+.footer-text {
+  display: flex;
+  align-items: center;
+}

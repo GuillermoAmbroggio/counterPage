@@ -1,0 +1,30 @@
+.container-newSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  flex-direction: column;
+  margin-top: 66px;
+}
+
+.button-statistics {
+  margin-top: 24px;
+  font-size: 24px;
+}
+
+.stop-clicks-text {
+  cursor: pointer;
+  color: #0079d3;
+  margin-top: 35px;
+  text-decoration: underline;
+}
+
+.stop-clicks-text {
+  opacity: 0.5;
+}
+
+@media (max-width: 600px) {
+  .container-newSection {
+    padding: 50px 16px;
+  }
+}

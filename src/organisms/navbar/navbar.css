@@ -1,0 +1,35 @@
+.container-navbar {
+  background-color: white;
+  height: 50px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 80;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 32px;
+  align-items: center;
+}
+
+.input-navbar {
+  height: 30px;
+  width: 30%;
+}
+
+.image-navbar {
+  width: 100px;
+  height: 44px;
+}
+
+.user-navbar {
+  color: #0079d3;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .input-navbar {
+    display: none;
+  }
+}

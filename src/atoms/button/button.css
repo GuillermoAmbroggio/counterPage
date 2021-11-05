@@ -1,0 +1,23 @@
+.container-button {
+  background-color: #0079d3;
+  min-width: 32px;
+  cursor: pointer;
+  color: white;
+  border-radius: 99px;
+  padding: 4px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-button:hover {
+  opacity: 0.8;
+}
+
+content-text-button {
+  padding: 4px 26px;
+  font-family: Arial, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 17px;
+}

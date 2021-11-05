@@ -88,6 +88,7 @@ const NewSection: React.FC = () => {
   const handleClick = () => {
     if (!stopCounter.status) {
       setStopCounter({ status: true, counterClick: counter });
+      setViewResults(false);
       Swal.fire({
         title: `Tu Click se registrará a los  ${counter} s.`,
         text: 'Estas de acuerdo? No podrás revertir esta acción',
